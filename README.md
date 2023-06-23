@@ -31,3 +31,19 @@ swagger
 redoc (alternativa swagger) -> http://127.0.0.1:8000/redoc
 http://127.0.0.1:8000/docs (openAPI)
 OAS -> Especificacion de las APIs
+
+## Path Operations
+www.myproject.com/API/
+Path / Rutas / Endpoints -> lo que va a la derecha del dominio.
+Operations -> Metodo HTTP :
+- GET
+- POST -> Envia informacion
+- PUT
+- DELETE
+
+Otras
+- OPTIONS
+- HEAP
+- PATCH
+- TRACE
+

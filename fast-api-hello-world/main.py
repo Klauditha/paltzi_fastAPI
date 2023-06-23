@@ -2,6 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
-def home():
+@app.get("/") #Path Operation Decorator
+def home():                     #path Operation Function
     return {"Hello":"World"}
