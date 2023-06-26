@@ -47,3 +47,12 @@ Otras
 - PATCH
 - TRACE
 
+## Path Parameters
+Variable definida dentro de un path
+Para el caso de :
+/tweets/22
+/tweets/1
+
+/tweets/{tweet_id}
+
+Pasarlo es obligatorio
