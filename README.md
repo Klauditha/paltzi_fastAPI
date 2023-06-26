@@ -64,3 +64,6 @@ PUT /users/{user_id}/details?age=20&height=184
 ## Request Body y Response Body
 Request -> Cuando nos comunicamos con el servidor
 Response -> Lo que entrega el servidor tras la peticion
+
+## Models
+Pydantic -> Base Model
