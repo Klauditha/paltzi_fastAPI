@@ -81,3 +81,7 @@ https://fastapi.tiangolo.com/tutorial/query-params-str-validations/
 
 - title
 - description
+
+## Validaciones: Path Parameters
+
+## Validaciones: Request Body
