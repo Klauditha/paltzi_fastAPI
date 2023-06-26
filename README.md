@@ -56,3 +56,7 @@ Para el caso de :
 /tweets/{tweet_id}
 
 Pasarlo es obligatorio
+
+## Query Parameters
+Permite no pasar parh parametros de forma obligatoria
+PUT /users/{user_id}/details?age=20&height=184
