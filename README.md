@@ -60,3 +60,7 @@ Pasarlo es obligatorio
 ## Query Parameters
 Permite no pasar parh parametros de forma obligatoria
 PUT /users/{user_id}/details?age=20&height=184
+
+## Request Body y Response Body
+Request -> Cuando nos comunicamos con el servidor
+Response -> Lo que entrega el servidor tras la peticion
