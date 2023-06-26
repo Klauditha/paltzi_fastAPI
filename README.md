@@ -67,3 +67,17 @@ Response -> Lo que entrega el servidor tras la peticion
 
 ## Models
 Pydantic -> Base Model
+
+## Validaciones: Query Parameters
+https://fastapi.tiangolo.com/tutorial/query-params-str-validations/
+- max_length
+- min_length
+- regex
+  
+- >= Greater or equals than -> ge
+- <= Less or equals then -> le
+- > Greater than -> gt
+- < Less than -> lt
+
+- title
+- description
