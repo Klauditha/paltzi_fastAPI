@@ -22,21 +22,34 @@ class Person(BaseModel):
     first_name: str = Field(
         ...,
         min_length=1,
-        max_length=50
+        max_length=50,
+        example="Miguel"
         )
     last_name: str = Field(
         ...,
         min_length=1,
-        max_length=50
+        max_length=50,
+        example="Torres"
         )
     age: int = Field(
         ...,
         gt=0,
-        lt=115
+        lt=115,
+        example=20
     )
-    hair_color: Optional[HairColor] = Field(default=None)
-    is_married: Optional[bool] = Field(default=None)
+    hair_color: Optional[HairColor] = Field(default=None,example="black")
+    is_married: Optional[bool] = Field(default=None,example=False)
 
+    #class Config:
+     #   schema_extra = {
+      #      "example":{
+       #         "first_name":"Facundo",
+        #        "last_name":"Garcia",
+         #       "age":21,
+          #      "hair_color":"blonde",
+           #     "is_married":bool
+           # }
+       # }
 class Location(BaseModel):
     city: str
     state:str
