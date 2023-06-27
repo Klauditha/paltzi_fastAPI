@@ -87,3 +87,20 @@ https://fastapi.tiangolo.com/tutorial/query-params-str-validations/
 ## Validaciones: Request Body
 
 ## Validaciones: Model
+
+## Tipos de datos especiales
+- https://docs.pydantic.dev/latest/usage/types/#pydantic-types
+- https://static.platzi.com/media/public/uploads/17-tipos-de-datos-especiales_1f2f7970-7dca-4345-a63a-66b90a69ef02.pdf
+
+### Datos exoticos
+- enum
+- HttpUrl -> para validar si lo que envia el usuario es una url 
+- FilePath -> c:/windows/system32/asd.dll
+- DirectoryPath -> /mnt/c/somefolder
+- EmailStr
+- PaymentCardNumber
+- IPvAnyAddress
+- NegativeFloat
+- PositiveFloat
+- NegativeInt
+- PositiveInt
